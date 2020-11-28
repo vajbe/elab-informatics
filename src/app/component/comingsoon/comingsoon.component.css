@@ -1,6 +1,6 @@
 div.coming-soon {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../assets/img/bg2.jpg");
+    url("http://elabinformatics.com/images/bg2.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -12,23 +12,26 @@ div.coming-soon {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
-div.coming-soon-header{
-    text-align: center;
-    flex: 1;
-    color: white;
+div.coming-soon-header {
+  text-align: center;
+  flex: 1;
+  color: white;
 }
 
-div.coming-soon-header h1{
-    font-weight: 200;
-    padding-top: 50px;
+div.coming-soon-header h1 {
+  font-weight: 200;
+  padding-top: 50px;
 }
-div.coming-soon-content { 
-  text-align: center;  
+div.coming-soon-content {
+  text-align: center;
   flex: 1;
 }
-div.coming-soon-content *{
-    padding: 5px;
-    color: white;
+div.coming-soon-content * {
+  padding: 5px;
+  color: white;
 }
