@@ -1,0 +1,32 @@
+*:hover {
+  transition: 0.5s all;
+}
+
+nav span.logo-section {
+  display: inline-block;
+  margin-left: 20px;
+}
+nav span.logo-section:hover {  
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  height: 80px;
+}
+
+li {
+  float: left;
+  margin: 10px;
+}
+li a {
+  text-decoration: none;
+  color: #2d3035;
+  transition: 0.5s all;
+}
+li a:hover {
+  color: #3764eb;
+}

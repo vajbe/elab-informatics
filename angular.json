@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "elab-informatics"
+    }
+  },
+  "defaultProject": "elab-informatics",
+  "cli": {
+    "analytics": "28990966-40d3-44c6-9e48-bcec3d60f682"
+  }
 }
